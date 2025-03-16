@@ -17,3 +17,28 @@ asks the few n no question
 
 again the cycle will restart 
 and user can build notes accordingly 
+
+### to run the project 
+```
+npm run dev
+```
+
+```
+npm convex dev
+```
+
+#### enter your variable key 
+
+
+```` 
+# Deployment used by `npx convex dev`
+CONVEX_DEPLOYMENT=dev:name # team: team-name , project: project name 
+
+NEXT_PUBLIC_CONVEX_URL= convexurl
+
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY= clerk auth key
+CLERK_SECRET_KEY= clerk secret key 
+
+NEXT_PUBLIC_CLERK_SIGN_In_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+````
